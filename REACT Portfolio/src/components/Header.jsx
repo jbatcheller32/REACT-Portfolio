@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Navigation from '../components/Navigation';
+import NavTabs from './NavTabs';
 import About from '.././pages/About';
 import Portfolio from '../pages/Portfolio';
 import Contact from '../pages/Contact';
@@ -35,7 +35,7 @@ export default function Header() {
         <div>
 
             {
-            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             }
             <main className="mx-3">{renderPage()}</main>
 
