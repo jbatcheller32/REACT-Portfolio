@@ -1,7 +1,20 @@
-import Header from './components/Header'
-import './App.css'
+import { Outlet } from 'react-router-dom';
+import NavTabs from './components/NavTabs';
+import './App.css';
 
-const App = () => <Header />;
+function App() {
+    return (
 
+        <>
+            <NavTabs />
+            <main className="mx-3">
+                <Outlet />
+            </main>
+
+        </>
+
+
+    );
+}
 
 export default App
