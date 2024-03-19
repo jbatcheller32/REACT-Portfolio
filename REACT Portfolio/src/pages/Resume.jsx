@@ -16,6 +16,7 @@ export default function Resume() {
                 Results-driven Technical Support Specialist with over a decade of experience in customer-centric roles spanning diverse industries. 
                 Possessing an AAS in Computer Information Systems, currently advancing expertise through a full stack coding bootcamp at Denver University.
                 Professional Experience
+               
 
                 <h3>Technical Support Specialist - IDX Broker LLC</h3>
 
