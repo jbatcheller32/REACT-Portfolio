@@ -1,3 +1,4 @@
 body {
-    background-color: lightgrey;
+    background: lightgray!important;
+    font-family: Arial, Helvetica, sans-serif;
 }

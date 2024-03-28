@@ -1,7 +1,9 @@
-img {
-    display: flex;
+.footer {
+    display: grid;
     justify-content: center;
-    margin-left: 500px;
-    height: 200px;
     
+}
+
+.footer-image {
+    height: 100px;
 }

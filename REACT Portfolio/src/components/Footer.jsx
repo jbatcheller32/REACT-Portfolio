@@ -1,4 +1,5 @@
 import '../styles/footer.css';
+import githubLogo from '../assets/github-mark.png';
 
 const Footer = () => {
     const githubLink = [
@@ -16,7 +17,7 @@ const Footer = () => {
               {githubLink.map((link, index) => (
                 <div key={index} className="col-md-4">
                   <a href={link.url} target="_blank" rel="noopener noreferrer">
-                    <img src={`https://github.com/${link.username}.png`} alt={link.username} />
+                    <img src={githubLogo} alt={link.username} className='footer-image' />
                   </a>
                 </div>
               ))}
@@ -28,3 +29,5 @@ const Footer = () => {
   };
   
   export default Footer;
+
+ 
