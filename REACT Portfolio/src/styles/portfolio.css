@@ -1,9 +1,10 @@
-.card-img-top-1 {
+.card {
+    background-color: darkseagreen;
+}
+.card-img-top {
     
     height: 50px!important;
 
 }
 
-.card-title, .card-text {
-    background-color: transparent;
-}
+

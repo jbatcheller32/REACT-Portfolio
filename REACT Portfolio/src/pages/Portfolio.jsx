@@ -5,7 +5,7 @@ export default function Portfolio() {
 
         <div>
 
-            <h1>Portfolio</h1>
+            <h1>My Projects</h1>
         <main> 
             <Project />
 
