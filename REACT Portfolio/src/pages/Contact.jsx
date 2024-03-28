@@ -1,67 +1,80 @@
+import '../styles/styles.css';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-const styles = {
-    formStyle: {
-        margin: '20px',
-    }, 
-
-    formInputStyle: {
-        display: 'block',
-        marginTop: '5px',
-        marginBottom: '5px',
-        width: '100%,'
-    }
-}
 
 function Contact() {
 
-    const [firstName, setFirstName] = useState('');
-    const [lastName, setLastName] = useState(''); 
-
-    const handleInputChange = (e) => {
-        const {name, value} = e.target; 
-
-        return name === 'firstName' ? setFirstName(value) : setLastName(value); 
-    }; 
-
-    const handleFormSubmit = (e) => {
-
-        e.preventDefault(); 
-
-        alert(`Hello, ${firstName} ${lastName}`); 
-        setFirstName(''); 
-        setLastName('');
-    }; 
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [message, setMessage] = useState('');
 
 
-    return (
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
 
 
-        <div className="container text-center">
+    return name === 'firstName' ? setFirstName(value) : setLastName(value);
+
+  };
+
+
+
+  const handleFormSubmit = (e) => {
+
+    e.preventDefault();
+
+    alert(`Hello, ${firstName} ${lastName}! Your message has been sent!`);
+    setFirstName('');
+    setLastName('');
+    setMessage('')
+
+  };
+
+
+  const handleInputChangeMessage = (e) => {
+    const { message, value } = e.target;
+
+    return message === setMessage(value)
+  }
+
+
+  return (
+
+
+    <div className="container text-center">
       <h1>
         Hello {firstName} {lastName}
       </h1>
-      <form style={styles.formStyle} className="form" onSubmit={handleFormSubmit}>
-        <input style={styles.formInputStyle}
+      <form className="form" onSubmit={handleFormSubmit}>
+        <input className="name-form"
           value={firstName}
           name="firstName"
           onChange={handleInputChange}
           type="text"
           placeholder="First Name"
         />
-        <input style={styles.formInputStyle} 
+        <input className="name-form"
           value={lastName}
           name="lastName"
           onChange={handleInputChange}
           type="text"
           placeholder="Last Name"
         />
+        <input className="form-message"
+          value={message}
+          onChange={handleInputChangeMessage}
+          type="text"
+          placeholder="Type your message here.."
+        />
         <button type="submit">
           Submit
         </button>
       </form>
     </div>
-    )
+  )
 }
 
 export default Contact;
+
