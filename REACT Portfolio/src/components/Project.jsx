@@ -1,5 +1,7 @@
 import projectOne from '../assets/e-commerce.png';
 import projectTwo from '../assets/wagstoriches.png';
+import projectThree from '../assets/bookyears.png';
+import projectFour from '../assets/notetaker.png';
 import { Link } from 'react-router-dom';
 
 function Project() {
@@ -31,25 +33,29 @@ function Project() {
             <div className="card-body">
             <Link  to="https://github.com/S10skeleton/Wags-to-Riches" className="link-text" style={styles.linkStyle}>
                 <h5 className="card-title">Wags To Riches</h5></Link>
-                <p className="card-text">Welcome to our Pet Adoption Website! This pet is designed to help connect adorable pets with loving families. The website is built using Handlebars for templating and MySQL for data storage.</p>
+                <p className="card-text">Welcome to our Pet Adoption Website! Our platform is dedicated to facilitating connections between adorable pets and loving families, providing a seamless adoption experience. Utilizing Handlebars for templating, our website ensures visually appealing and dynamic content presentation. Additionally, we employ MySQL for robust data storage, enabling efficient management and retrieval of pet information. With our user-friendly interface and reliable backend infrastructure, we strive to unite pets with their forever homes, creating lasting bonds and joyful experiences for both pets and adoptive families.</p>
             </div>
         </div>
     </div>
     <div className="col">
         <div className="card" style={styles.cardStyles}>
-            <img src="..." className="card-img-top" alt="..." />
+        <Link  to="https://cdarts48.github.io/Book-App/"  style={styles.linkStyle}>
+            <img src={projectThree} className="card-img-top" alt="project3-image" /></Link>
             <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <Link  to="https://github.com/CDarts48/Book-App" className="link-text" style={styles.linkStyle}>
+                <h5 className="card-title">Book Years</h5></Link>
+                <p className="card-text">Our desktop book app is designed to allow users to search the title of any book and get the book description, author, and a link to Google Books to preview the book. This app uses the Google Books API for the description, author, and Google Book link. Then uses the Open Library API for the titles. For styling, we used a CSS framework called CSS Reset to create a polished UI.</p>
             </div>
         </div>
     </div>
     <div className="col">
         <div className="card" style={styles.cardStyles}>
-            <img src="..." className="card-img-top" alt="..." />
+            <Link to="https://sleepy-anchorage-38404-24d1132a98fc.herokuapp.com/" style={styles.linkStyle}>
+            <img src={projectFour} className="card-img-top" alt="project4-image" /></Link>
             <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <Link  to="https://github.com/jbatcheller32/Note-Taker" className="link-text" style={styles.linkStyle}>
+                <h5 className="card-title">Note Taker App</h5></Link>
+                <p className="card-text">The Note Taker application provides users with the ability to create, store, and retrieve notes effortlessly. Leveraging the power of Express.js on the backend, the application ensures seamless handling of note data by storing and retrieving it from a JSON file. Users can easily compose new notes, save them for future reference, and access them whenever needed, offering a convenient and organized approach to note-taking.</p>
             </div>
         </div>
     </div>
