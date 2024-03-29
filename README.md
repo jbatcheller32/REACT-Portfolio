@@ -31,3 +31,7 @@ Favicon Integration: Incorporate favicon icons that link to my GitHub and Linked
 Feedback and contributions are always welcome! If you have any suggestions for improvements or would like to contribute to the development of this portfolio app, please feel free to open an issue or submit a pull request. Together, we can make this portfolio even more impressive and impactful.
 
 # links
+
+repo link: https://github.com/jbatcheller32/REACT-Portfolio
+
+Deployed app: https://admirable-paprenjak-4d7eee.netlify.app/
