@@ -26,7 +26,7 @@ export default function Resume() {
             <div className="summary">
                 <h3>Summary</h3>
                 <p>
-                    Results-driven Technical Support Specialist with over a decade of experience in customer-centric roles spanning diverse industries. Possessing an AAS in Computer Information Systems, currently advancing expertise through a full stack coding bootcamp at Denver University.
+                Results-driven Technical Support Specialist with over a decade of experience in customer-centric roles spanning diverse industries. Possessing an AAS in Computer Information Systems, I have recently augmented my skills and knowledge through a rigorous full stack coding bootcamp at Denver University. This educational experience has provided me with advanced expertise in modern programming languages and web development frameworks, complementing my extensive background in technical support.
                 </p>
             </div><br /><br />
 
@@ -36,9 +36,9 @@ export default function Resume() {
                 <div className="job-experience">
                     <h3>Technical Support Specialist - IDX Broker LLC</h3><br />
                     <ul className="skills">
-                        <li>Provide comprehensive user education and seamless onboarding experiences for new clients, ensuring ongoing customer success.</li>
-                        <li>Consistently align decisions with personal, company, and team objectives, driving toward mutually agreed-upon goals.</li>
-                        <li>Spearhead proactive communication initiatives in response to user-initiated requests.</li>
+                        <li>Leverage diverse technical support channels to assist clients effectively, drawing from over 2 years of SaaS industry experience</li>
+                        <li>Utilize advanced ticketing and collaboration tools including; Salesforce, Jira, and Confluence, to manage and resolve user inquiries with precision and efficiency</li>
+                        <li>Apply an engineering background to troubleshoot complex technical issues, prioritizing client-centric solutions.</li>
                     </ul>
                 </div>
 
