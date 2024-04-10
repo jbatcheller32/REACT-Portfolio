@@ -39,11 +39,11 @@ function Project() {
     </div>
     <div className="col">
         <div className="card" style={styles.cardStyles}>
-        <Link  to="https://cdarts48.github.io/Book-App/"  style={styles.linkStyle}>
+        <Link  to="https://read-radar.onrender.com/"  style={styles.linkStyle}>
             <img src={projectThree} className="card-img-top" alt="project3-image" /></Link>
             <div className="card-body">
-            <Link  to="https://github.com/CDarts48/Book-App" className="link-text" style={styles.linkStyle}>
-                <h5 className="card-title">Book Years</h5></Link>
+            <Link  to="https://github.com/jbatcheller32/Read-Radar" className="link-text" style={styles.linkStyle}>
+                <h5 className="card-title">MERN Stack App</h5></Link>
                 <p className="card-text">Our desktop book app is designed to allow users to search the title of any book and get the book description, author, and a link to Google Books to preview the book. This app uses the Google Books API for the description, author, and Google Book link. Then uses the Open Library API for the titles. For styling, we used a CSS framework called CSS Reset to create a polished UI.</p>
             </div>
         </div>
