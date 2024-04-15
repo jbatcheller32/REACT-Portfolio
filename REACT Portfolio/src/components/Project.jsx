@@ -1,6 +1,6 @@
 import projectOne from '../assets/e-commerce.png';
 import projectTwo from '../assets/wagstoriches.png';
-import projectThree from '../assets/bookyears.png';
+import projectThree from '../assets/final.png';
 import projectFour from '../assets/notetaker.png';
 import { Link } from 'react-router-dom';
 
